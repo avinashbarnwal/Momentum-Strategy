@@ -1,0 +1,634 @@
+Ticker,Company Name,9/30/2016,12/31/2015,12/31/2014,12/31/2013,12/31/2012,12/31/2011,12/31/2010,12/31/2009
+A,Agilent Technologies Inc.,3.52,3.43,3.24,3.49,2.66,2.7,4.32,4.18
+AA,Alcoa Inc.,1.09,1.08,1.52,1.08,0.7,0.67,1.16,1.27
+AAL,American Airlines Group,4.5,4.74,,,,,,
+AAP,Advance Auto Parts Inc,3.99,4.48,,,,,,
+AAPL,Apple Inc.,4.81,4.58,5.25,3.86,3.92,4.18,5.41,5.33
+ABBV,AbbVie Inc.,18.21,24.55,59.85,18.7,,,,
+ABC,AmerisourceBergen Corp.,10.23,16.4,11.15,7.24,4.35,3.31,3.17,2.71
+ABT,Abbott Laboratories,3.01,3.16,3.15,2.35,3.87,3.58,3.31,3.65
+ACN,Accenture plc,10.67,11.12,10.23,10.63,9.51,9.15,,
+ACS,ACS Inc.,,,,,,,,1.91
+ADBE,Adobe Systems Inc.,7.45,6.69,5.35,4.45,2.8,2.4,3.02,3.94
+ADI,Analog Devices Inc.,3.98,3.46,3.59,3.3,2.93,2.77,3.34,3.33
+ADM,Archer-Daniels-Midland Co.,1.39,1.22,1.71,1.42,0.98,1.06,1.21,1.36
+ADP,"ADP, LLC.",8.94,9.29,7.32,6.22,4.32,4.27,3.95,3.76
+ADS,Alliance Data Systems Corp.,7.26,8.41,7.64,14.97,,,,
+ADSK,Autodesk Inc.,12.05,8.48,6.16,5.02,3.89,3.65,5.4,3.96
+ADT,ADT Corp.,,1.87,2.05,2.51,2.05,,,
+AEE,Ameren Corp.,1.72,1.51,1.67,1.34,1.13,1.01,0.87,0.84
+AEP,American Electric Power,1.72,1.6,1.77,1.42,1.36,1.36,1.27,1.26
+AES,AES Corp.,3.06,2.04,2.3,2.42,1.74,1.53,1.48,1.9
+AET,Aetna Inc.,2.29,2.34,2.16,1.8,1.49,1.51,1.23,1.45
+AFL,AFLAC Inc.,1.31,1.44,1.5,2.13,1.56,1.5,2.41,2.57
+AGN,"Allergan, Plc",1.27,1.72,2.41,3.07,2.87,2.15,2.09,1.39
+AGN (Old),Allergan Inc. (Old),,,8.17,5.11,4.83,5.04,4.44,3.97
+AIG,"AIG, Inc.",0.71,0.86,0.73,0.75,0.53,0.42,1.07,0.18
+AIV,Aimco,4.45,4.28,5.21,4.2,4.65,11.03,7.79,3.22
+AIZ,Assurant Inc.,1.21,1.17,0.93,1,0.53,0.75,0.86,0.71
+AJG,Arthur J. Gallagher & Co,2.5,,,,,,,
+AKAM,Akamai Technologies Inc.,2.94,3,3.8,3.21,3.1,2.69,3.94,2.5
+AKS,AK Steel Holding Corp.,,,,,,,2.79,2.65
+ALB,Albemarle Corp,2.32,,,,,,,
+ALK,Alaska Air Group Inc,3.09,,,,,,,
+ALL,Allstate Corp.,1.25,1.2,1.32,1.15,0.94,0.74,0.9,0.97
+ALLE,Allegion,47.47,246.97,-1106.07,-48.87,,,,
+ALTR,Altera Corp.,,,3.43,2.97,3.31,3.98,4.79,6.16
+ALXN,Alexion Pharmaceuticals,3.35,5.2,11.11,10.94,9.24,,,
+AMAT,Applied Materials Inc.,4.78,2.99,3.77,2.94,1.92,1.62,2.38,2.62
+AMD,Advanced Micro Devices,,,,,3.18,2.37,5.51,10.01
+AME,Ametek,3.31,3.92,4,4.11,,,,
+AMG,Affiliated Managers Group,2.67,3.04,4.49,,,,,
+AMGN,Amgen Inc.,4.14,4.36,4.7,3.89,3.47,2.96,2.17,2.53
+AMP,Ameriprise Financial,2.27,2.57,3,2.73,1.42,1.1,1.33,1.07
+AMT,American Tower Corp.,7.12,6.17,9.91,8.91,8.55,7.17,5.89,5.23
+AMZN,Amazon.com Inc.,24,23.67,13.38,18.73,13.87,10.15,11.77,11.08
+AN,AutoNation Inc.,2.3,2.81,3.3,2.94,2.86,2.72,2.01,1.45
+ANF,Abercrombie & Fitch,,,,,2.1,2.25,2.68,1.68
+ANR,Alpha Natural Resources,,,,,,0.6,,
+ANTM,Anthem Inc.,1.36,1.58,1.4,1.1,0.78,0.99,0.94,1.07
+AON,Aon plc,5.43,4.14,4.11,3.1,2.28,1.87,1.84,1.95
+APA,Apache Corporation,3.39,6.55,0.91,1.03,1.02,1.25,1.88,2.2
+APC,Anadarko Petroleum Corp.,3.14,1.93,2.12,1.83,1.8,2.1,1.82,1.54
+APD,Air Products & Chemicals,4.62,3.81,4.2,3.25,2.78,3.04,3.36,3.41
+APH,Amphenol Corp.,5.67,4.97,5.73,4.94,4.27,3.46,3.97,4.54
+APOL,Apollo Group Inc.,,,,,2.3,5.15,3.93,6.45
+ARG,Airgas Inc.,,5.06,4.13,4.66,3.88,3.59,2.65,2.25
+ATI,Allegheny Technologies Inc.,,,1.45,1.33,1.31,2.05,2.67,2.18
+ATVI,Activision Blizzard Inc,3.84,3.51,,,,,,
+AVB,AvalonBay Communities,2.48,2.56,2.38,1.78,2.23,2.83,2.9,2.19
+AVGO,Avago Technologies,3.5,7.84,7.08,,,,,
+AVP,Avon Products,,,14.08,6.73,5.1,4.79,7.53,10.57
+AVY,Avery Dennison Corp,7.23,5.91,4.43,3.25,2.2,1.84,2.82,3.02
+AWK,American Water Works Company Inc,2.58,,,,,,,
+AXP,American Express Co,2.86,3.31,4.66,4.99,3.41,2.92,3.18,3.34
+AYE,Allegheny Energy Inc.,,,,,,,1.2,1.28
+AYI,Acuity Brands Inc,7.31,,,,,,,
+AZO,AutoZone Inc,-12.01,-12.6,-11.88,-9.36,-8.09,-9.5,-14.61,-16.17
+BA,Boeing Co.,140.48,15.29,10.69,6.9,9.69,15.51,17.31,18.48
+BAC,Bank of America Corp.,0.66,0.75,0.84,0.76,0.57,0.27,0.64,0.67
+BAX,Baxter International Inc.,3.04,2.36,4.89,4.46,5.28,4.24,4.49,4.92
+BBBY,Bed Bath & Beyond,2.59,3.14,4.42,4.18,3.22,3.63,3.35,2.98
+BBT,BB&T Corp.,1.15,1.19,1.29,1.31,1.07,1.01,1.11,1.08
+BBY,Best Buy Co. Inc.,2.8,2.38,2.74,3.46,1.3,1.45,2.27,2.97
+BCR,"C. R. Bard, Inc",10.12,9.62,6.91,5,4.18,4.12,5.23,3.43
+BDK,Black & Decker,,,,,,,,3.01
+BDX,Becton Dickinson,4.76,4.53,5.31,4.22,3.43,3.38,3.92,3.55
+BEAM,Beam Inc.,,,,2.19,2.11,1.94,1.62,1.28
+BEN,Franklin Resources,1.74,1.88,2.98,3.47,2.98,2.56,3.06,3.38
+BF.B,Brown-Forman Corp.,7.93,14.11,9.1,8.53,8.89,5.62,5.4,4.19
+BHI,Baker Hughes Inc,1.56,1.23,1.3,1.38,1.05,1.35,1.75,1.72
+BIG,Big Lots Inc.,,,,,2.17,3.01,2.43,2.39
+BIIB,"Biogen Idec, Inc.",6.01,7.29,7.42,7.66,4.97,4.16,2.96,2.49
+BJS,BJ Services Co.,,,,,,,,1.55
+BK,BNY Mellon,1.18,1.27,1.27,1.12,0.85,0.72,1.16,1.16
+BLK,BlackRock,2.06,1.96,2.16,2,1.38,0.99,,
+BLL,Ball Corp,3.83,7.92,9.03,6.23,6.18,4.76,3.96,3.08
+BMC,BMC Software,,,,,9.03,3.81,5.21,5.64
+BMS,Bemis,,,,2.5,2.11,1.96,1.88,1.78
+BMY,Bristol-Myers Squibb,6.04,8.04,6.59,5.77,3.95,3.74,2.88,3.37
+BNI,Burlington Northern,,,,,,,,2.63
+BRCM,Broadcom Corp.,,,2.59,1.83,2.17,2.19,3.41,3.53
+BRK.B,Berkshire Hathaway,0.7,0.65,0.76,0.63,0.53,0.49,0.53,
+BSX,Boston Scientific,5.21,3.92,2.72,2.45,1.15,0.7,1.02,1.11
+BTU,Peabody Energy,,,,1.35,1.46,1.64,3.7,3.23
+BWA,BorgWarner Inc,2.05,2.73,3.46,3.57,2.72,2.93,,
+BXLT,Baxalta,,6.75,,,,,,
+BXP,Boston Properties,3.79,3.56,3.58,2.77,3.14,3.03,2.76,2.09
+C,Citigroup Inc.,0.65,0.75,0.82,0.8,0.62,0.43,0.84,0.5
+CA,"CA, Inc.",2.55,2.28,2.36,2.67,1.86,1.74,2.29,2.31
+CAG,ConAgra Foods Inc.,5.57,5.32,2.77,2.59,2.6,2.33,2.01,2.05
+CAH,Cardinal Health Inc.,3.79,4.38,4.38,3.46,2.14,2.37,2.47,2.24
+CAM,Cameron Int'l Corp.,,2.65,2.17,2.42,2.5,2.56,2.8,2.61
+CAT,Caterpillar Inc.,3.4,2.67,3.31,2.78,3.34,4.55,5.49,4.06
+CB,Chubb Ltd.,1.24,1.3,1.29,1.22,0.98,0.96,0.92,
+CB (Old),Chubb Corp. (Old),,1.48,2.11,2.04,1.62,1.5,1.3,1.06
+CBE,Cooper Industries,,,,,,2.42,,
+CBG,CBRE Group,3.29,4.26,5.04,4.6,4.26,4.34,7.28,6.32
+CBS,CBS Corp,4.13,3.67,3.81,3.59,2.21,1.67,1.22,0.97
+CCE,Coca-Cola Enterprises,,11.68,7.47,5.03,3.38,2.77,2.7,12.07
+CCI,Crown Castle Int'l Corp.,4.58,4.07,3.91,3.54,7.2,,,
+CCL,Carnival Corp.,1.18,1.35,1.11,0.97,0.91,0.82,1.21,0.9
+CEG,Constellation Energy Group,,,,,,1.13,0.78,0.81
+CELG,Celgene Corp.,14.6,15.9,13.69,12.46,5.83,5.44,4.65,5.82
+CEPH,Cephalon Inc.,,,,,,,1.76,2.06
+CERN,Cerner,5.14,5.32,6.19,6.04,4.69,4.49,4.12,
+CF,CF Industries Holdings Inc.,1.42,2.36,3.22,2.63,2.16,2.08,2.37,2.55
+CFG,Citizens Financial Group,0.64,,,,,,,
+CFN,Carefusion,,,2.2,1.57,1.16,1.09,1.17,1.17
+CHD,Church & Dwight Co,6.14,5.5,,,,,,
+CHK,Chesapeake Energy,-1.59,-3.24,0.94,1.4,0.88,1.08,1.39,1.53
+CHRW,C. H. Robinson Worldwide,7.96,7.75,10.45,9.41,6.75,9.16,11.07,9.12
+CHTR,Charter Communications,18.11,,,,,,,
+CI,Cigna Corp.,2.5,3.13,2.5,2.29,1.56,1.44,1.49,1.78
+CINF,Cincinnati Financial,1.78,1.51,1.29,1.41,1.17,0.98,1.02,0.9
+CL,Colgate-Palmolive,-235.21,-199.84,55.07,26.17,22.56,18.83,14.5,13.26
+CLF,Cliffs Natural Resources,,,,0.75,1.19,1.54,2.75,2.37
+CLX,The Clorox Company,54.61,82.69,47.99,76.73,170.59,-44.12,71.16,315.86
+CMA,Comerica Inc.,1.07,0.98,1.14,1.22,0.83,0.75,1.29,0.92
+CMCSA,Comcast Class A Comm.,3,2.64,2.8,2.67,2,1.36,1.38,1.12
+CME,CME Group Inc.,1.68,1.49,1.43,1.24,0.79,0.75,1.07,1.16
+CMG,Chipotle Mexican Grill,8.3,7.03,10.55,10.72,7.52,10.12,,
+CMI,Cummins Inc.,3.15,2.11,3.4,3.52,3.12,3.09,4.66,2.45
+CMS,CMS Energy,2.83,2.55,2.61,2.07,2.02,1.85,1.63,1.38
+CNC,Centene Corp,2.07,,,,,,,
+CNP,CenterPoint Energy,2.95,2.28,2.21,2.3,1.91,2.03,2.08,2.15
+CNX,Consol Energy Inc.,,0.38,1.46,1.74,1.85,2.31,3.74,5.04
+COF,Capital One Financial,0.76,0.81,1.02,1.06,0.83,0.66,0.73,0.65
+COG,Cabot Oil & Gas,4.17,3.64,5.71,7.42,4.91,3.77,2.1,2.49
+COH,Coach Inc.,3.8,3.54,4.11,6.48,7.56,9.53,9.43,6.24
+COL,Rockwell Collins,5.2,6.38,6.03,5.79,7.64,6.54,6.12,6.31
+COO,The Cooper Companies,11.77,,,,,,,
+COP,ConocoPhillips,1.43,1.45,1.64,1.66,1.47,1.48,1.46,1.21
+COST,Costco Co.,5.8,6.55,5.05,4.66,3.4,3.04,2.81,2.51
+COV,Covidien,,,4.46,3.28,2.52,2.12,,
+CPB,Campbell Soup,11.04,10.68,9.03,9.67,9.46,8.87,13.04,11.33
+CPGX,Columbia Pipeline Group Inc.,,1.97,,,,,,
+CPWR,Compuware,,,,,,1.78,2.72,1.88
+CRM,Salesforce.com,7.88,10.41,9.41,10.95,10.3,8.69,13.59,8.83
+CSC,Computer Sciences Corp.,,,2.66,2.22,1.89,1.15,1.07,1.32
+CSCO,Cisco Systems,2.5,2.26,2.46,2.14,1.88,1.97,2.46,3.32
+CSRA,CSRA Inc,36.82,23.85,,,,,,
+CSX,CSX Corp.,2.48,2.17,3.23,2.78,2.26,2.62,2.78,2.15
+CTAS,Cintas Corp.,6.41,5.11,4.16,3.39,2.42,2.15,1.7,1.6
+CTL,CenturyLink Inc.,1.07,0.98,1.5,1.1,1.27,1.1,1.45,1.14
+CTSH,Cognizant Technology Sol.,2.94,3.93,4.14,4.98,4.57,4.92,6.21,5.04
+CTXS,Citrix Systems,5.92,5.9,4.72,3.55,3.92,4.15,5.03,3.48
+CVC,Cablevision Systems Corp.,,-1.45,-0.9,-0.72,-0.55,-0.57,-1.32,
+CVH,Coventry Health Care,,,,,1.28,0.97,0.93,0.97
+CVS,CVS Health Corp.,2.73,2.91,2.91,2.25,1.6,1.39,1.25,1.27
+CVX,Chevron Corp.,1.32,1.11,1.37,1.61,1.55,1.75,1.75,1.68
+CXO,Concho Resources,3.28,,,,,,,
+D,Dominion Resources,3.27,3.18,3.89,3.23,2.82,2.64,2.07,2.08
+DAL,Delta Air Lines,2.5,3.67,4.67,2.02,,,,
+DD,DuPont,5.8,5.98,5.12,3.76,4.26,5.06,5.04,4.36
+DE,Deere & Co.,3.61,3.67,3.69,3.32,4.48,4.62,5.34,4.59
+DELL,"Dell, Inc.",,,,,1.65,2.95,3.37,4.98
+DF,Dean Foods,,,,,8.56,-19.9,1.07,2.41
+DFS,Discover Financial Services,2.11,2.14,2.81,2.6,2.11,1.6,1.56,1.1
+DG,Dollar General,3.64,3.89,3.76,3.58,2.91,,,
+DGX,Quest Diagnostics,2.59,2.18,2.25,1.97,2.23,2.48,2.27,2.8
+DHI,D. R. Horton,1.73,1.95,1.76,1.72,1.76,1.51,1.47,1.34
+DHR,Danaher Corp.,2.16,2.69,2.58,2.4,2.04,1.91,2.25,2.08
+DIS,The Walt Disney Co.,3.38,3.95,3.62,3.03,2.15,1.81,1.88,1.66
+DISCA,Discovery Com Class A,1.99,2.05,2.96,5.11,3.69,2.45,2.76,
+DLPH,Delphi Automotive,8.17,10.67,8.58,6.36,5.18,,,
+DLR,Digital Realty Trust,4.75,,,,,,,
+DLTR,Dollar Tree,3.83,4.11,8.11,10.03,5.53,7.36,,
+DNB,Dun & Bradstreet,-4.55,-3.36,-3.61,-4.47,-3.45,-4.89,-6.25,-5.88
+DNR,Denbury Resources Inc.,,,0.5,1.14,1.23,1.23,1.74,1.87
+DO,Diamond Offshore Drilling,0.67,0.7,1.13,1.71,2.06,1.77,2.41,3.77
+DOV,Dover Corp.,3.08,2.61,3.2,3.06,2.39,2.18,2.41,1.9
+DOW,Dow Chemical,2.34,2.79,2.92,2.35,2.3,1.86,2.22,1.91
+DPS,Dr Pepper Snapple Group,7.86,8.06,6.07,4.29,4.03,3.74,3.25,2.26
+DRI,Darden Restaurants,3.96,4.1,3.69,3.45,3.11,3.51,3.39,2.85
+DTE,DTE Energy Co.,1.91,1.64,1.84,1.48,1.4,1.31,1.14,1.15
+DTV,DirecTV,,,-8.35,-5.55,-5.58,-9.71,-171.6,10.96
+DUK,Duke Energy,1.38,1.24,1.45,1.18,1.1,1.29,1.05,1.03
+DV,"DeVry, Inc.",,,,,,1.91,2.65,3.86
+DVA,DaVita Inc.,2.88,3.02,3.15,3.04,2.8,3.31,3.41,2.81
+DVN,Devon Energy Corp.,4.77,1.87,1.16,1.23,0.99,1.17,1.76,2.1
+EA,Electronic Arts,6.91,7.09,5.44,3.54,2.26,3.01,2.31,2.22
+EBAY,eBay Inc.,5.76,5.02,3.5,3,3.16,2.18,2.37,2.21
+ECL,Ecolab Inc.,5.38,4.89,4.29,4.28,3.47,3.06,5.5,5.29
+ED,Consolidated Edison,1.64,1.44,1.54,1.32,1.37,1.59,1.3,1.24
+EFX,Equifax Inc.,6.32,5.71,4.43,3.65,3.35,2.76,2.6,2.44
+EIX,Edison Int'l,2.04,1.7,1.95,1.52,1.56,1.34,1.19,1.15
+EK,Eastman Kodak Co.,,,,,,,,-32.39
+EL,Estee Lauder Cos.,5.51,5.44,4.62,4.66,4.57,4.99,4.02,2.9
+EMC,EMC Corp.,,2.36,2.76,2.32,2.38,2.32,2.71,2.29
+EMN,Eastman Chemical,2.29,2.55,3.21,3.27,3.55,2.87,3.73,2.89
+EMR,Emerson Electric Co,4.44,4.18,4.49,4.61,3.66,3.36,4.24,3.65
+ENDP,Endo International plc,0.72,2.32,,,,,,
+EOG,EOG Resources,4.42,3.01,2.85,2.97,2.46,2.1,2.27,2.46
+EP,El Paso Corp.,,,,,,4.71,3.06,2.81
+EQIX,Equinix Inc,5.44,6.6,,,,,,
+EQR,Equity Residential,2.11,2.85,2.52,1.79,2.52,3.09,3.02,1.93
+EQT,EQT Corporation,2.07,1.57,2.5,3.35,2.45,2.28,2.17,2.67
+ES,Eversource Energy,1.64,1.56,1.7,1.39,1.33,1.59,1.47,1.26
+ESRX,Express Scripts,2.89,3.4,3.1,2.59,1.89,8.77,7.89,6.68
+ESS,Essex Property Trust Inc,2.38,2.56,2.22,,,,,
+ESV,Ensco plc,,0.56,0.85,1.04,1.16,,,
+ETFC,E*Trade Financial Corp.,1.38,1.5,1.31,1.16,0.52,0.46,0.87,0.88
+ETN,Eaton Corporation,1.95,1.59,2.04,2.15,1.66,1.95,2.32,1.56
+ETR,Entergy Corp.,1.41,1.32,1.58,1.17,1.23,1.44,1.51,1.8
+EW,Edwards Lifesciences,10.39,6.81,6.22,4.61,7.03,6.03,,
+EXC,Exelon Corp.,1.19,0.99,1.41,1.03,1.19,2,2.03,2.55
+EXPD,Expeditors Int'l,5.25,4.97,4.61,4.36,4.08,4.33,6.66,4.75
+EXPE,Expedia Inc.,3.81,3.51,5.44,3.82,3.29,1.59,2.36,2.52
+EXR,Extra Space Storage Inc,4.72,,,,,,,
+F,Ford Motor,1.51,1.92,2.36,2.27,3.04,2.67,-84.87,-4.14
+FAST,Fastenal Co.,6.46,6.56,7.36,7.95,8.86,8.82,6.89,5.19
+FB,"Facebook, Inc.",5.91,5.37,4.81,6.84,,,,
+FBHS,Fortune Brands Home & Security,3.92,,,,,,,
+FCX,Freeport-McMoRan Inc.,3.6,1,1.33,1.87,1.85,2.23,4.52,5.53
+FDO,Family Dollar Stores,,,5.37,4.8,5.42,5.92,5.11,2.61
+FDX,FedEx Corporation,3.37,2.74,3.16,2.56,1.86,1.65,2.01,1.84
+FE,FirstEnergy Corp,1.23,1.08,1.32,1.09,1.33,1.4,1.32,1.65
+FFIV,F5 Networks,6.95,5.4,7.1,4.85,5.54,7.21,9.79,
+FHN,First Horizon,,,,,1.11,0.88,1.29,1.35
+FII,Federated Investors,,,,,4.24,2.92,5.48,5.33
+FIS,Fidelity Nat. Info. Services,2.66,2.11,2.69,2.37,1.54,1.22,1.29,1.05
+FISV,Fiserv Inc,8.28,7.86,5.25,4.25,3.09,2.54,2.7,2.47
+FITB,Fifth Third Bancorp,1.02,1.1,1.17,1.37,1.02,0.91,1.12,0.78
+FL,Foot Locker Inc.,3.5,,,,,,,
+FLIR,FLIR Systems,2.62,2.35,2.83,2.64,2.09,2.48,3.1,4.13
+FLR,Fluor Corp.,2.28,2.23,3.04,3.49,2.93,2.51,3.39,2.44
+FLS,Flowserve Corporation,3.61,3.3,4.22,5.88,3.88,2.43,3.17,2.94
+FMC,FMC Corporation,3.24,2.8,4.97,6.62,5.43,4.88,5.12,3.75
+FOSL,"Fossil, Inc.",,1.91,5.79,6.2,4.53,,,
+FOXA,Twenty-First Century Fox,3.3,3.62,4.13,4.52,2.11,1.61,1.39,1.47
+FRT,Federal Realty Investment Trust,5.75,,,,,,,
+FRX,Forest Laboratories,,,,2.7,1.66,1.48,1.78,2
+FSLR,First Solar Inc,0.7,1.2,0.89,1.21,0.74,0.8,3.23,4.34
+FTI,FMC Technologies Inc.,2.55,2.63,4.46,5.33,5.54,8.74,8.11,6.41
+FTR,Frontier Communications,0.96,0.97,1.83,1.15,1.04,1.15,1.86,7.45
+FTV,Fortive Corp,1.09,,,,,,,
+GAS,AGL Resources Inc.,,1.95,1.72,1.57,1.38,1.49,,
+GAS (Old),Nicor Inc.,,,,,,,2.06,1.84
+GD,General Dynamics,4.31,4.04,3.86,2.32,2.15,1.79,2.01,2.12
+GE,General Electric,3.12,2.99,1.98,2.17,1.79,1.62,1.64,1.37
+GENZ,Genzyme Corp.,,,,,,,2.43,1.69
+GGP,General Growth Properties,3.03,2.99,3.38,2.33,,,,
+GHC,Graham Holdings,,,,1.25,0.87,0.94,1.13,1.21
+GILD,Gilead Sciences,6.72,7.87,9.22,10.13,5.98,4.56,5.02,6.12
+GIS,General Mills Inc.,7.66,7.13,5.68,4.7,3.74,3.96,4.01,3.83
+GLW,Corning Inc.,1.42,1.31,1.52,1.22,0.87,0.97,1.56,1.93
+GM,General Motors,1.14,1.33,1.58,1.44,,,,
+GMCR,Keurig Green Mountain,,5.33,6.2,,,,,
+GME,GameStop Corp.,,1.41,1.77,2.53,1.33,1.08,1.2,1.33
+GNW,Genworth Financial Inc.,,,0.28,0.53,0.22,0.19,0.46,0.45
+GOOGL,Alphabet Inc. Class A,4.32,4.44,3.45,4.31,3.25,3.61,4.13,5.47
+GPC,Genuine Parts,4.62,4.12,4.93,3.83,3.29,3.42,2.89,2.31
+GPN,Global Payments,4.3,,,,,,,
+GPS,Gap Inc.,3.46,3.9,5.98,5.73,5.14,3.29,3.33,2.96
+GR,Goodrich Corp.,,,,,,4.19,3.3,2.74
+GRMN,Garmin Ltd.,2.82,2.12,2.97,2.46,2.25,,,
+GS,Goldman Sachs Group,0.87,1.02,1.15,1.13,0.86,0.66,1.22,1.36
+GT,Goodyear Tire & Rubber,2.03,2.24,2.17,5.32,-26.02,13.91,4.47,4.65
+GWW,"W. W. Grainger, Inc.",6.37,5.61,5.41,5.45,4.65,4.97,4.33,3.33
+HAL,Halliburton Co.,3.97,1.88,2.05,3.17,2.04,2.41,3.58,3.11
+HAR,Harman Int'l Industries,2.4,2.74,3.75,3.29,1.87,1.82,2.52,2.34
+HAS,Hasbro Inc.,6.17,5.05,4.72,4.24,3.09,2.9,3.98,2.78
+HBAN,Huntington Bancshares,1.64,1.42,1.44,1.4,1.01,0.94,1.28,0.72
+HBI,Hanesbrands Inc,9.09,9.04,,,,,,
+HCA,HCA Inc.,-3.53,-3.63,,,,,,
+HCBK,Hudson City Bancorp,,,1.12,1.05,0.91,0.72,1.22,1.35
+HCN,Welltower Inc,2,1.77,2.04,1.49,1.72,1.69,1.6,1.55
+HCP,HCP Inc.,1.91,1.9,1.88,1.55,1.94,1.93,1.75,1.63
+HD,Home Depot,23.88,26.55,14.84,9.26,5.2,3.62,3.04,2.54
+HES,Hess Corporation,0.84,0.72,0.99,1.13,0.86,1.04,1.55,1.48
+HIG,Hartford Financial Services,0.89,1.01,0.96,0.86,0.45,0.32,0.6,0.6
+HNZ,H. J. Heinz Company,,,,,6.1,6.07,6,7.4
+HOG,Harley-Davidson,4.65,4.73,4.85,5.09,4.32,3.73,3.7,2.8
+HOLX,Hologic Inc,5.27,,,,,,,
+HON,Honeywell Int'l Inc.,4.73,4.37,4.43,4.1,3.83,3.89,3.89,3.38
+HOT,Starwood Hotels & Res,,9.02,9.49,4.53,3.58,3.17,4.69,3.75
+HP,Helmerich & Payne,1.55,1.19,1.48,1.97,1.48,1.81,1.73,
+HPE,Hewlett Packard Enterprise Co,1.17,0.85,,,,,,
+HPQ,Hewlett-Packard Co,-6.77,-4.32,2.78,1.92,1.21,1.31,2.24,2.93
+HRB,"H&R Block, Inc.",-25.38,-14.64,8.08,11.59,7.94,5.93,4.39,8.1
+HRL,Hormel Foods Corp.,4.57,5.02,3.69,3.48,2.81,2.83,2.68,2.32
+HRS,Harris Corp.,3.7,3.33,4.15,4.35,3.05,1.86,2.43,3.11
+HSH,Hillshire Brands Co,,,,,,5.58,5.49,3.09
+HSIC,Henry Schein Inc,4.52,4.55,,,,,,
+HSP,Hospira Inc.,,,3.11,2.31,1.7,1.7,2.92,3.15
+HST,Host Hotels & Resorts,1.61,1.63,2.45,2.03,1.66,1.56,1.89,1.18
+HSY,The Hershey Company,20.04,13.97,11.45,9.87,11.32,11.97,8.71,8.3
+HUM,Humana Inc.,2.42,2.56,2.28,1.73,1.23,1.78,1.33,1.29
+IBM,IBM Corp.,9.65,9.36,13.38,8.94,11.48,10.76,7.91,7.6
+ICE,Intercontinental Exchange,2.1,2.05,2,2.06,2.46,2.81,3.14,3.43
+IFF,Intl Flavors & Fragrances,6.8,6.04,5.4,4.79,4.35,3.84,4.45,4.23
+IGT,International Game Tech.,,,,4.09,3.01,3.44,4.05,4.91
+ILMN,Illumina Inc,12.95,15.2,,,,,,
+INTC,Intel Corp.,2.91,2.66,3.14,2.22,2,2.69,2.37,2.7
+INTU,Intuit Inc.,24.44,39.74,11.18,9.73,6.31,7.03,6.74,4.31
+IP,International Paper Co.,4.9,4.02,4.44,2.68,2.78,1.95,1.74,1.93
+IPG,Interpublic Group,4.49,4.81,4.1,3.33,2.16,2,2.25,1.82
+IR,Ingersoll-Rand PLC,2.73,2.48,2.81,2.51,2.02,1.37,1.92,
+IRM,Iron Mountain Inc.,4.45,11.21,9.47,5.54,5.12,4.59,2.56,2.16
+ISRG,Intuitive Surgical Inc.,5.38,4.72,5.67,4.18,5.45,6.82,4.97,7.54
+ITT,ITT Corp.,,,,,,,2.12,2.34
+ITW,Illinois Tool Works,8.6,6.45,5.43,3.85,2.67,2.25,2.83,2.73
+IVZ,Invesco Ltd.,1.67,1.8,2.04,1.92,1.39,1.12,1.35,1.46
+JBHT,J. B. Hunt Transport Services Inc.,6.63,6.47,,,,,,
+JBL,Jabil Circuit,,,,1.51,1.89,2.17,2.59,2.53
+JCI,Johnson Controls Int'l plc,10.09,3.36,4.33,3.72,2.66,1.51,1.43,
+JCI (Old),Johnson Controls (Old),,2.44,2.98,3.01,1.77,1.91,2.48,1.96
+JCP,J.C. Penney,,,,,1.36,1.87,1.4,1.31
+JEC,Jacobs Engineering Group,1.42,1.2,1.31,1.92,1.45,1.51,1.96,1.72
+JNJ,Johnson & Johnson,4.46,3.99,4.2,3.49,3,3.14,3,3.51
+JNPR,Juniper Networks,1.97,2.33,1.96,1.56,1.45,1.51,2.92,2.41
+JNS,Janus Capital Group,,,,,,,2.03,2.45
+JOY,Joy Global Inc.,,,1.69,2.19,2.49,3.73,,
+JPM,JPMorgan Chase & Co.,1.06,1.1,1.1,1.1,0.86,0.72,0.99,1.09
+JWN,Nordstrom,9.6,10.51,6.19,5.74,5.6,5.32,4.59,5.2
+K,Kellogg Co.,13.64,12.04,8.33,6.24,8.28,10.32,8.72,8.88
+KEY,KeyCorp,1.19,1.05,1.18,1.2,0.79,0.76,0.93,0.61
+KG,King Pharmaceuticals Inc.,,,,,,,,1.29
+KHC,Kraft Heinz Co,1.88,1.53,8.43,6.2,7.55,,,
+KIM,Kimco Realty,2.29,2.17,2.17,1.75,1.65,1.41,1.48,1.05
+KLAC,KLA-Tencor Corp.,15.81,29.58,19.21,3.03,2.37,2.71,2.62,2.77
+KMB,Kimberly-Clark,231.45,-265.57,59.03,8.21,6.63,5.52,4.34,4.9
+KMI,Kinder Morgan,1.47,0.95,2.64,2.85,1.88,,,
+KMX,Carmax Inc.,3.43,3.66,4.41,3.19,2.83,2.62,3.28,
+KO,The Coca Cola Co.,6.86,7.31,6.1,5.5,4.96,5.02,4.93,5.33
+KORS,Michael Kors Holdings,4.51,3.73,7.19,10.19,,,,
+KR,Kroger Co.,4.26,5.98,5.83,3.79,3.21,3.5,2.69,2.76
+KSS,Kohl's Corp.,1.51,1.65,2.06,2.03,1.63,1.92,2.02,2.11
+KSU,Kansas City Southern,2.51,2.09,3.59,4.06,,,,
+L,Loews Corp.,0.77,0.77,0.82,0.96,0.82,0.79,0.88,0.92
+LB,L Brands Inc.,-17.91,-107.08,1407.31,-48.52,-13.37,87.28,6.72,2.84
+LDOS,Leidos Holdings Inc,,,,,1.48,1.92,2.37,3.27
+LEG,Leggett & Platt,5.73,5.27,5.11,3.14,2.68,2.47,2.21,2
+LEN,Lennar Corp.,1.3,1.55,1.61,1.55,1.81,1.13,1.1,0.79
+LH,LabCorp,2.65,2.53,3.23,3.21,3.02,3.4,3.63,3.77
+LIFE,Life Technologies,,,,,1.81,1.51,2.34,2.31
+LKQ,LKQ Corp,3.29,,,,,,,
+LLL,L-3 Comm's Holdings,2.6,2.15,2.03,1.58,1.32,1,1.18,1.54
+LLTC,Linear Technology Corp.,8.28,6.18,7.56,9.37,10.01,11.31,27.97,-59.64
+LLY,Eli Lilly and Co.,6.05,6.41,5,3.26,3.88,3.55,3.25,4.31
+LM,Legg Mason,0.85,0.99,1.34,1.11,0.69,0.6,0.96,0.84
+LMT,Lockheed Martin Corp.,23.48,21.55,17.89,9.68,765.74,26.15,6.79,6.9
+LNC,Lincoln National,0.69,0.91,0.95,1.01,0.48,0.41,0.69,0.69
+LNT,Alliant Energy Corp,0.39,,,,,,,
+LO,Lorillard Inc.,,,-10.39,-9.04,-8.5,-10.17,-54.56,148.14
+LOW,Lowe's Cos.,9.14,9.09,6.72,4.37,2.88,1.92,1.91,1.81
+LRCX,Lam Research,2.59,2.27,2.52,1.9,1.32,,,
+LSI,LSI Corporation,,,,7,5.34,5.1,5.83,6.19
+LUK,Leucadia National Corp.,0.68,0.61,0.8,1.02,0.86,0.9,1.02,1.33
+LUV,Southwest Airlines,3.08,3.81,4.24,1.79,1.08,0.97,1.55,1.55
+LVLT,Level 3 Comm's,1.59,1.91,2.61,,,,,
+LXK,Lexmark Int'l Inc,,,,,,1.79,1.96,2
+LYB,LyondellBasell,5.34,5.96,4.78,3.56,2.95,,,
+M,Macy's Inc.,2.82,2.59,4.22,3.15,2.55,2.28,1.94,1.5
+MA,Mastercard Inc.,18.79,17.77,14.12,12.93,8.47,7.71,5.28,8.02
+MAC,Macerich,2.74,2.71,2.34,2.46,,,,
+MAR,Marriott Int'l.,-7.59,-4.8,-10.05,-10.45,-9.15,-12.52,9.55,8.52
+MAS,Masco Corp.,-96.83,-70.53,9.72,15.19,18.48,7.12,3.28,1.89
+MAT,Mattel Inc.,4.46,3.5,3.56,4.95,4.1,3.6,3.47,2.85
+MCD,McDonald's Corp.,153.82,15.3,7.09,6.03,5.79,7.13,5.54,4.8
+MCHP,Microchip Technology,5.28,4.45,4.02,4.28,3.29,3.61,3.87,3.59
+MCK,McKesson Corp.,4.07,5.11,5.3,4.62,2.99,2.57,2.52,2.35
+MCO,Moody's Corp,-34.7,-35.11,-106.42,50.09,29.12,-44.24,-20.08,-10.46
+MDLZ,Mondelez Int'l,2.47,2.54,2.2,1.91,1.4,1.87,1.54,1.55
+MDP,Meredith Corp.,,,,,,,1.71,1.76
+MDT,Medtronic Inc.,2.35,2.13,3.52,2.96,2.33,2.35,2.59,3.39
+MEE,Massey Energy Co.,,,,,,,2.74,2.27
+MET,MetLife Inc.,0.62,0.79,0.85,0.98,0.56,0.55,0.9,0.87
+MFE,McAfee Inc.,,,,,,,3.21,3.02
+MHK,Mohawk Industries,2.76,2.88,2.56,2.42,,,,
+MHS,Medco Health Solutions,,,,,,5.4,6.52,4.77
+MI,Marshall & Iisley Corp.,,,,,,,0.58,0.41
+MIL,Millipore Inc.,,,,,,,,2.68
+MJN,Mead Johnson,-25.96,-24.61,35.37,57.98,715.36,-78.12,-34.66,-13.24
+MKC,McCormick & Co.,6.54,5.96,4.86,4.27,4.53,3.78,3.86,3.21
+MLM,Martin Marietta Materials,2.83,2.23,1.71,,,,,
+MMC,Marsh & McLennan,5.26,4.44,4.39,3.36,2.87,2.89,2.33,2
+MMI,Motorola Mobility,,,,,,2.28,,
+MMM,3M Company,8.96,7.92,7.97,5.33,3.66,3.71,3.94,4.59
+MNK,Mallinckrodt plc,1.44,1.67,2.27,,,,,
+MNST,Monster Beverage,8.76,6.28,11.99,11.45,14.05,,,
+MO,Altria Group Inc.,39.34,39.63,32.31,18.64,20.1,16.57,9.9,10
+MOLX,Molex Inc.,,,,,1.9,1.76,1.81,1.8
+MON,Monsanto Co.,8.76,12.19,7.8,4.87,4.13,3.4,3.72,4.33
+MOS,The Mosaic Co.,0.86,0.97,1.44,1.24,1.29,1.37,,
+MPC,Marathon Petroleum,1.59,2.09,2.35,2.53,1.83,1.25,,
+MRK,Merck & Co.,3.98,3.3,3.33,2.94,2.35,2.11,2.04,1.89
+MRO,Marathon Oil Corp.,0.7,0.46,0.91,1.27,1.18,1.2,1.11,1.01
+MS,Morgan Stanley,0.88,0.91,1.17,0.98,0.62,0.48,0.86,1.08
+MSFT,Microsoft Corp.,6.23,5.77,4.17,3.67,3.1,3.41,4.93,6.11
+MSI,Motorola Solutions Inc.,-18.46,-114.02,5.82,4.77,4.78,2.89,1.96,1.83
+MTB,M&T Bank Corp.,1.19,1.3,1.49,1.45,1.35,1.14,1.36,1.12
+MTD,Mettler Toledo,3.58,,,,,,,
+MU,Micron Technology,1.51,1.19,3.22,2.49,0.87,0.75,0.97,1.73
+MUR,Murphy Oil,1.01,0.73,1.05,1.41,1.29,1.23,1.75,1.41
+MWW,Monster Worldwide Inc.,,,,,,,2.72,1.93
+MYL,Mylan Inc.,1.97,2.72,6.49,5.65,3.35,2.62,2.55,1.8
+NAVI,Navient,1.25,1.04,2.11,,,,,
+NBL,Noble Energy Inc.,1.58,1.36,1.66,2.66,2.19,2.3,2.2,2.01
+NBR,Nabors Industries Ltd.,,,0.77,0.84,0.71,0.89,1.26,1.2
+NDAQ,NASDAQ OMX Group,1.95,1.7,1.39,1.08,0.79,0.87,1,0.85
+NE,Noble Corp.,,,0.64,1.14,1.14,1.07,,
+NEE,NextEra Energy,2.47,2.12,2.33,2.07,1.82,1.72,1.5,1.68
+NEM,Newmont Mining Corp.,1.83,0.84,0.92,1.12,1.66,2.27,2.24,2.12
+NFLX,Netflix Inc.,17.49,21.99,11.08,16.36,6.91,5.97,31.64,
+NFX,Newfield Exploration Co.,9.9,3.86,0.96,1.13,1.3,1.3,2.89,
+NI,NiSource Inc.,2.04,1.62,2.17,1.75,1.39,1.34,1,0.87
+NKE,"Nike, Inc.",5.79,3.98,7.1,6.16,4.6,4.49,4.11,3.49
+NLSN,Nielsen Holdings,4.48,3.83,3.32,3.03,,,,
+NOC,Northrop Grumman Corp.,6.73,6.24,4.12,2.4,1.74,1.48,1.4,1.38
+NOV,National Oilwell Varco Inc.,0.86,0.77,1.36,1.53,1.44,1.64,1.79,1.31
+NOVL,"Novell, Inc.",,,,,,,1.58,1.51
+NRG,NRG Energy,1.4,1.37,0.93,0.97,0.74,0.56,0.6,
+NSC,Norfolk Southern Corp.,2.32,2.07,2.73,2.54,2,2.47,2.14,1.86
+NSM,National Semiconductor,,,,,,,5.62,12.32
+NTAP,NetApp,3.58,2.49,3.68,3.58,2.6,3.22,5.65,5
+NTRS,Northern Trust Corp.,1.8,2,1.97,1.87,1.6,1.34,1.96,2
+NUE,Nucor Corp.,2.08,1.74,2.01,2.22,1.79,1.68,1.94,1.99
+NVDA,Nvidia Corp.,8.18,3.97,2.47,2.04,1.59,2.04,2.81,3.89
+NVLS,Novellus Systems,,,,,,2.51,2.19,1.92
+NWL,Newell Rubbermaid Co.,2.25,6.46,5.58,4.49,3.21,2.53,2.77,2.34
+NWSA,News Corporation,0.7,0.66,0.72,0.82,,,,
+NYT,The New York Times Co.,,,,,,,,2.94
+NYX,NYSE Euronext,,,,,1.21,1.04,1.15,0.96
+O,Realty Income Corporation,2.54,1.97,,,,,,
+ODP,Office Depot Inc.,,,,,,,,2.25
+OI,Owens-Illinois Inc.,8.57,16.38,3.84,4.05,3.97,3.79,2.77,3.6
+OKE,"ONEOK, Inc.",45.55,15.37,17.51,5.49,4.11,3.99,2.41,
+OMC,Omnicom Group,8.81,7.47,6.75,5.34,3.81,3.51,3.85,2.9
+ORCL,Oracle Corp.,3.41,3.34,4.15,3.95,3.67,3.08,4.6,4.46
+ORLY,O'Reilly Automotive,15.73,12.75,9.68,7.03,4.86,3.61,2.63,1.95
+OXY,Occidental Petroleum,2.41,2.12,1.79,1.78,1.55,2.02,2.45,2.27
+PAYX,Paychex Inc.,10.95,10.27,9.14,9.42,6.66,7,7.71,7.95
+PBCT,People's United Bank,1.02,1.06,1.01,1.05,0.83,0.89,1,1.14
+PBG,Pepsi Bottling Group Inc.,,,,,,,,3.38
+PBI,Pitney-Bowes,43.03,22.83,63.85,25.06,19.42,-93.35,-50.52,368.58
+PCAR,PACCAR Inc.,3.07,2.41,3.57,3.16,2.73,2.5,3.9,2.58
+PCG,PG&E Corp.,1.84,1.57,1.61,1.26,1.32,1.38,1.66,1.6
+PCL,Plum Creek Timber Co.,,5.62,4.5,4.49,5.86,4.67,4.4,4.19
+PCLN,Priceline.com Inc,7.84,7.22,6.97,8.65,7.94,9.04,10.82,7.26
+PCP,Precision Castparts,,2.73,2.91,3.54,2.9,2.93,2.92,2.7
+PCS,MetroPCS,,,,,1.08,1.07,1.76,1.18
+PDCO,Patterson Companies,3.21,3.3,3.41,2.99,2.75,2.42,2.42,2.49
+PEG,Public Serv. Enterprise Inc.,1.59,1.5,1.72,1.4,1.44,1.63,1.67,1.91
+PEP,PepsiCo Inc.,12.78,12.25,8.13,5.25,4.72,5.01,4.87,5.61
+PETM,"PetSmart, Inc.",,,5.9,6.9,6.54,,,
+PFE,Pfizer Inc.,3.27,3.08,2.75,2.6,2.27,2.03,1.6,1.63
+PFG,Principal Financial Group,1.41,1.41,1.5,1.5,0.86,0.78,1.07,0.97
+PG,Procter & Gamble,4.16,3.49,3.82,3.18,2.78,2.85,2.79,2.58
+PGN,Progress Energy Inc.,,,,,,1.65,1.27,1.21
+PGR,Progressive Corp.,2.34,2.55,2.29,2.64,2.12,2.06,2.18,2.11
+PH,Parker-Hannifin,3.67,2.75,3.33,3.05,2.38,2.23,2.72,1.9
+PHM,PulteGroup Inc,1.43,1.31,1.66,1.68,3.2,1.25,1.35,1.19
+PKI,PerkinElmer,2.94,2.84,2.42,2.32,1.88,1.23,1.58,1.48
+PLD,Prologis,1.93,1.54,1.55,1.35,1.35,1,1.15,0.85
+PLL,Pall Corp.,,,6.96,5.41,3.93,4.19,4.22,3.59
+PM,Philip Morris Int'l,-12.01,-10.28,-10.02,-17.98,-40.2,595.28,30.29,16.06
+PNC,PNC Financial SVCS Group Inc,1.05,1.17,1.18,1.07,0.87,0.94,1.08,1.11
+PNR,Pentair Ltd.,2.79,2.23,2.66,2.54,1.62,,,
+PNW,Pinnacle West Capital,1.84,1.56,1.73,1.39,1.41,1.38,1.22,1.12
+POM,Pepco Holdings Inc.,,1.49,1.57,1.11,1.01,1.06,0.97,0.88
+PPG,PPG Industries,5.15,5.34,6.12,5.46,5.11,3.97,3.77,2.6
+PPL,PPL Corp.,2.27,2.31,1.77,1.52,1.59,1.57,1.55,2.22
+PRGO,Perrigo,1.34,2.11,2.41,2.41,4.63,5.57,,
+PRU,Prudential Financial,0.65,0.87,0.99,1.21,0.64,0.63,0.88,0.91
+PSA,Public Storage,7.67,8.38,6.19,4.95,4.73,4.44,3.27,2.5
+PSX,Phillips 66,1.84,1.89,1.84,2.11,1.6,,,
+PTV,Pactiv LLC,,,,,,,,3.24
+PVH,PVH Corp.,1.85,1.33,2.42,2.56,,,,
+PWR,Quanta Services Inc.,1.26,1,1.34,1.58,1.6,1.31,1.25,1.4
+PX,Praxair Inc.,6.71,6.65,6.71,5.79,5.36,5.84,5.05,4.64
+PXD,Pioneer Natural Resources,3.03,2.24,2.58,4.1,2.31,1.99,2.45,1.57
+PYPL,PayPal Holdings Inc.,3.58,3.21,,,,,,
+Q,Qwest Communications,,,,,,,-8.01,-6.17
+QCOM,"Qualcomm, Inc.",3.29,2.48,3.18,3.39,2.98,3.24,3.52,3.62
+QEP,QEP Resources,,,0.89,1.63,1.65,1.57,2.12,
+QLGC,QLogic Corp.,,,,,,,3.07,3.47
+QRVO,Qorvo,1.42,1.31,,,,,,
+R,Ryder System,1.72,1.53,2.71,2.05,1.74,2.06,1.94,1.62
+RAI,Reynolds American Inc.,3.14,3.61,7.55,5.23,4.41,3.86,2.92,2.38
+RCL,Royal Caribbean Cruises,1.98,2.76,2.22,,,,,
+RDC,Rowan Companies plc,,,,0.9,0.86,0.88,1.17,0.83
+REGN,Regeneron,10.2,15.17,16.09,13.73,,,,
+RF,Regions Financial Corp.,0.75,0.78,0.9,0.89,0.67,0.41,0.66,0.44
+RHI,Robert Half International,4.61,6.23,8.1,6.33,5.32,5.08,5.4,4.48
+RHT,Red Hat Inc.,10.85,11.26,10.53,7.22,6.91,5.66,7.19,5.24
+RIG,Transocean,0.26,0.31,0.49,1.07,,,,
+RL,Polo Ralph Lauren Corp.,1.6,1.72,2.79,2.65,2.41,2.4,2.09,1.49
+ROK,Rockwell Automation Inc.,7.46,6.05,5.87,6.1,5.96,5.63,6.43,4.89
+ROP,Roper Industries,3.33,3.61,3.29,3.27,2.97,2.62,2.63,2.02
+ROST,Ross Stores,9.75,8.82,8.62,8.02,6.81,7.28,5.65,4.57
+RRC,Range Resources Corp.,3.89,1.51,2.61,5.71,4.33,4.17,3.24,3.31
+RRD,R.R. Donnelley,,,,,,2.6,1.62,2.14
+RSG,Republic Services Inc.,2.23,1.96,1.85,1.51,1.39,1.33,1.46,1.42
+RTN,Raytheon Co.,3.89,3.7,3.5,2.63,2.37,2.05,1.73,2.01
+RX,IMS Health Inc.,,,,,,,,53.56
+S,Sprint Corp,,,,,2.41,0.61,0.87,0.6
+SBUX,Starbucks Corp.,13.88,14.9,10.63,12.09,7.71,7.19,5.88,5.09
+SCG,SCANA Corp.,1.86,1.59,1.73,1.41,1.45,1.5,1.4,1.36
+SCHW,Charles Schwab Corp.,3.26,3.63,3.61,3.52,2.1,1.85,3.28,4.31
+SE,Spectra Energy Corp.,3.95,2.46,2.98,2.81,2.03,2.48,2.07,1.86
+SEE,Sealed Air Corp.,15.35,16.7,7.71,4.81,2.36,1.12,1.69,1.58
+SHLD,Sears Holding Corporation,,,,,,0.79,0.95,1.06
+SHW,Sherwin-Williams Co.,20.47,27.85,25.34,10.48,8.85,6.11,5.62,4.69
+SIAL,Sigma-Aldrich Corp.,,,5.22,3.89,3.48,3.42,4.09,3.65
+SIG,Signet Jewelers Limited,1.96,3.21,,,,,,
+SII,Smith International Inc.,,,,,,,,1.24
+SJM,J.M. Smucker Co.,2.22,2.01,1.97,2.09,1.78,1.65,1.46,1.4
+SLB,Schlumberger Ltd.,2.57,2.47,2.9,3.01,2.65,2.93,3.65,4.09
+SLG,SL Green Realty Corp,1.53,1.6,,,,,,
+SLM,SLM Corp.,,,,2.26,1.76,1.46,1.37,1.37
+SNA,Snap-On Inc.,3.42,4.12,3.6,3.01,2.55,1.92,2.37,1.89
+SNDK,SanDisk Corporation,,2.66,3.31,2.29,1.45,1.67,2.02,1.69
+SNI,Scripps Networks Int.,3.21,3.43,5.6,4.6,3.67,3.16,3.8,3.88
+SO,Southern Co.,2.28,2.07,2.22,1.91,2.05,2.27,1.96,1.79
+SPG,Simon Property Group Inc.,14.21,13.59,11.21,8.14,8.34,8.23,6.09,5.13
+SPGI,S&P Global Inc.,88.86,137.35,49.5,16.28,19.79,8.75,5.06,5.71
+SPLS,Staples Inc.,1.22,1.13,2.19,1.69,1.25,1.38,2.37,2.63
+SRCL,Stericycle Inc.,2.41,3.75,5.87,5.69,5.2,5.54,6.6,5.49
+SRE,Sempra Energy,2.27,1.98,2.42,1.99,1.67,1.34,1.4,1.53
+STI,SunTrust Banks,0.93,0.99,1.01,0.96,0.76,0.48,0.82,0.58
+STJ,"St. Jude Medical, Inc.",5.32,4.32,4.43,4.27,2.72,2.45,3.35,3.7
+STR,Questar Corp.,,,,,,,,2.07
+STT,State Street Corp.,1.44,1.46,1.68,1.62,1.07,1.05,1.31,1.49
+STX,Seagate Technology,7.26,6.02,5.86,7.34,3.94,,,
+STZ,Constellation Brands,4.31,3.8,2.95,2.44,2.03,1.4,1.53,1.17
+SUN,Sunoco Inc.,,,,,,4.9,1.6,1.19
+SUNE,SunEdison Inc,,,,,,,1.14,1.4
+SVU,Supervalu Inc.,,,,,,2.31,1.62,0.97
+SWK,Stanley Black & Decker,3.19,2.75,2.34,2.1,1.87,1.63,1.58,2.09
+SWKS,Skyworks Solutions Inc.,4.06,4.22,,,,,,
+SWN,Southwestern Energy,11.92,1.2,2.07,3.82,3.86,2.8,4.38,7.14
+SWY,Safeway Inc.,,,,1.38,1.48,1.94,1.68,1.75
+SYF,Synchrony Financial,1.7,2.01,,,,,,
+SYK,Stryker Corp.,4.79,4.11,4.15,3.14,2.42,2.48,2.97,3.04
+SYMC,Symantec Corp.,4.15,2.63,3,2.85,2.53,2.48,2.92,3.28
+SYY,Sysco Corp.,7.82,5.87,4.37,3.97,3.8,3.69,4.31,4.21
+T,AT&T Inc.,2.02,1.73,2.02,2.04,2.07,1.7,1.56,1.62
+TAP,Molson Coors Brewing Co.,2.16,2.17,1.53,1.04,0.84,0.89,1.04,1.01
+TDC,Teradata Corp.,4.68,4.14,3.92,4,5.88,5.44,5.8,5.91
+TDG,TransDigm Group,-19.05,,,,,,,
+TE,TECO Energy,,2.45,1.87,1.61,1.58,1.82,1.76,1.66
+TEG,Integrys Energy Group Inc.,,,1.89,1.33,1.35,1.43,1.3,1.12
+TEL,TE Connectivity Ltd.,2.77,2.91,2.81,2.62,1.93,1.73,,
+TER,Teradyne,,,,,1.78,1.67,2.27,2.82
+TGNA,TEGNA Inc,2.18,2.58,2.22,2.5,1.76,1.37,1.67,2.19
+TGT,Target Corp.,3.41,3.45,3.45,2.46,2.33,2.17,2.75,2.37
+THC,Tenet Healthcare Corp.,,4.37,7.65,5.54,3.02,2.05,2.27,8.31
+TIE,Titanium Metals,,,,,,2.15,2.56,2.04
+TIF,Tiffany & Co.,3.11,3.36,4.88,4.37,2.8,3.58,3.61,2.84
+TJX,TJX Companies Inc.,11.03,11.02,11.08,10.72,8.44,7.59,5.67,5.31
+TLAB,Tellabs Inc.,,,,,,,1.34,1.15
+TMK,Torchmark Corp.,1.57,1.74,1.48,1.87,1.12,1.05,1.19,1.07
+TMO,Thermo Fisher Scientific,2.95,2.65,2.44,2.39,1.49,1.13,1.43,1.26
+TRIP,TripAdvisor,5.58,7.93,8.64,12.39,7.47,10.56,,
+TROW,T. Rowe Price Group,3.4,3.77,4.13,4.54,4.32,4.21,5.02,4.76
+TRV,The Travelers Companies,1.34,1.45,1.41,1.33,1.08,1,1.01,1
+TSCO,Tractor Supply Co.,5.99,8.24,8.28,,,,,
+TSN,Tyson Foods,2.27,1.98,1.65,1.81,1.14,1.32,1.19,1.02
+TSO,Tesoro Petroleum Co.,1.71,2.43,2.11,1.81,1.46,0.89,0.83,0.62
+TSS,Total System Services,4.37,4.97,3.73,3.99,2.81,3.03,2.41,2.9
+TWC,Time Warner Cable Inc.,,5.84,5.32,5.5,4.03,2.69,2.55,1.68
+TWX,Time Warner Inc.,2.59,2.19,2.93,2.11,1.52,1.21,1.08,1.02
+TXN,Texas Instruments,7.07,5.59,5.44,4.45,3.16,3.04,3.66,3.36
+TXT,Textron Inc.,2.07,2.32,2.72,2.36,2.34,1.87,2.19,1.8
+UA,Under Armour,8.8,12.11,10.76,,,,,
+UAL,United Continental Holdings,2.17,2.38,,,,,,
+UDR,UDR Inc,3.31,,,,,,,
+UHS,Universal Health Services,2.58,2.56,2.73,,,,,
+ULTA,"Ulta Salon, Cosmetics & Fragrance Inc",10.66,,,,,,,
+UNH,United Health Group Inc.,3.66,3.31,2.99,2.36,1.78,1.91,1.54,1.5
+UNM,Unum Group,0.9,0.94,1.03,1.06,0.67,0.72,0.86,0.76
+UNP,Union Pacific,3.98,3.23,5,3.65,2.98,2.75,2.57,1.9
+UPS,United Parcel Service,28.79,27.12,36.94,11.62,11.47,7.53,6.63,5.31
+URBN,Urban Outfitters,3.25,2.35,3.48,3.23,4.24,3.73,4.16,
+URI,"United Rentals, Inc.",4.5,4.56,5.67,,,,,
+USB,U.S. Bancorp,1.75,1.84,2.08,2.03,1.75,1.65,1.88,1.76
+UTX,United Technologies,2.92,3.11,3.36,3.28,2.9,3.03,3.4,3.24
+V,Visa Inc.,5.75,5.09,4.63,4.17,2.92,1.94,1.37,1.75
+VAR,Varian Medical Systems,5.51,4.76,5.35,4.84,4.86,5.56,5.64,4.3
+VFC,V.F. Corp.,5,4.93,5.74,4.52,3.24,3.1,2.42,2.13
+VIAB,Viacom Inc.,3.23,3.87,8.07,7.18,3.32,2.84,2.33,1.89
+VIAV,VIAVI Solutions Inc,,,,,2.92,2.25,3.3,1.99
+VLO,Valero Energy,1.19,1.66,1.25,1.4,1.05,0.72,0.87,0.64
+VMC,Vulcan Materials,3.38,2.84,2.07,1.96,1.79,1.34,1.44,1.63
+VNO,Vornado Realty Trust,3.59,3.48,4.04,3.03,2.66,2.44,2.75,2.32
+VRSK,Verisk Analytics Inc,9.47,9.49,,,,,,
+VRSN,Verisign Inc.,-7.41,-9.1,-7.81,-19.34,-646.47,-64.49,8.31,8.48
+VRTX,Vertex Pharmaceuticals Inc.,22.02,32.89,26.58,12.8,,,,
+VTR,Ventas Inc.,2.56,1.96,2.44,1.91,2.12,1.71,3.45,2.78
+VZ,Verizon Communications,11.01,11.45,15.79,3.62,3.72,3.16,2.62,2.26
+WAT,Waters Corp.,5.94,5.34,4.95,4.83,5.16,5.41,6.64,6.91
+WBA,Walgreens Boots Alliance,2.83,3.01,3.49,2.73,1.9,1.97,2.51,2.48
+WDC,Western Digital,1.49,1.46,2.83,2.31,1.26,1.22,1.51,2.49
+WEC,WEC Energy Group Inc,2.14,1.87,2.69,2.21,2.05,2.04,1.81,1.63
+WFC,Wells Fargo,1.25,1.61,1.71,1.54,1.24,1.12,1.37,1.33
+WFM,Whole Foods Market,2.84,3.5,4.62,5.43,4.77,3.92,3.48,1.83
+WHR,Whirlpool Corp.,2.51,2.42,3.09,2.5,1.86,0.87,1.6,1.64
+WIN,Windstream Comm's,,,22.09,5.66,4.41,4.57,8.12,18.8
+WLTW,Willis Towers Watson,1.66,,,,,,,
+WM,Waste Management Inc.,5.41,4.46,4.01,3.69,2.46,2.48,2.8,2.63
+WMB,Williams Companies,4.78,3.13,3.83,5.42,4.64,10.85,1.98,1.46
+WMT,Wal-Mart Stores,2.92,2.44,3.4,3.34,2.99,2.87,2.8,2.88
+WPX,WPX Energy Inc,,,,1,0.56,,,
+WRK,WestRock Co,1.23,1.06,2.27,1.67,1.66,1.61,1.34,1.44
+WU,Western Union Co.,7.73,6.44,7.2,8.62,8.63,12.63,20.9,36.91
+WY,Weyerhaeuser Corp.,2.54,3.15,3.56,2.71,3.7,2.35,2.2,2.25
+WYN,Wyndham Worldwide,9.51,8.88,8.42,5.92,3.87,2.61,1.8,1.34
+WYNN,Wynn Resorts Ltd.,-142.51,-62.76,-523.88,-106.47,-43.78,6.61,5.75,2.36
+X,U.S. Steel Corp.,,,,1.27,0.99,1.09,2.18,1.69
+XEC,Cimarex Energy,5.44,3.02,2.05,,,,,
+XEL,Xcel Energy Inc.,1.95,1.72,1.78,1.45,1.47,1.58,1.34,1.33
+XL,XL Capital,0.79,1,0.88,0.9,0.72,0.67,0.66,0.67
+XLNX,Xilinx Inc.,5.32,4.66,4.28,4.22,3.32,3.29,3.45,3.41
+XOM,Exxon Mobil Corp.,2.12,1.9,2.24,2.54,2.38,2.63,2.51,2.92
+XRAY,Dentsply Int'l,1.67,3.64,3.25,2.73,2.55,2.68,2.64,2.92
+XRX,Xerox Corp.,1.12,1.19,1.49,1.22,0.75,0.93,1.33,1.04
+XTO,XTO Energy Inc.,,,,,,,,1.56
+XYL,Xylem Inc.,4.32,3.14,3.26,2.85,2.43,2.6,,
+YHOO,Yahoo Inc.,1.45,1.08,1.24,3.14,1.62,1.6,1.73,1.88
+YUM,Yum! Brands Inc.,-91.02,34.58,20.6,15.55,13.93,14.91,14.58,15.96
+ZBH,Zimmer Biomet Holdings,2.72,2.11,2.95,2.53,1.97,1.74,1.84,2.23
+ZION,Zions Bancorp,0.92,0.83,0.91,1.01,0.8,0.65,0.94,0.43
+ZTS,"Zoetis, Inc.",18.97,22.34,16.45,17.39,,,,
