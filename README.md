@@ -9,21 +9,21 @@ Portfolio Creation using momentum factor and P/B Factor. This also tests differe
 ##Structural Steps
 
 ##Momentum Portfolio
-1.Stock population - S&P 500
-2.Divide and choose , Large Cap and Mid Cap Stocks.
-3.Rank the assets in Large Cap basis return in last 12 months(returns are monthly).
-4.Equal Weight allocation among the specific size of portfolio.
-5.Test the hypothesis across the size of portfolio basis per month returns and take the portfolio having maximum per month returns.
-6.Similar steps for Mid Cap
-7.Test the return for Mid Cap and Large Cap and invest accordingly.
+1. Stock population - S&P 500
+2. Divide and choose , Large Cap and Mid Cap Stocks.
+3. Rank the assets in Large Cap basis return in last 12 months(returns are monthly).
+4. Equal Weight allocation among the specific size of portfolio.
+5. Test the hypothesis across the size of portfolio basis per month returns and take the portfolio having maximum per month returns.
+6. Similar steps for Mid Cap
+7. Test the return for Mid Cap and Large Cap and invest accordingly.
 ##P/B Portfolio
-8.Rank the stocks based on P/B on each month and rebalance the portfolio based on equal weight.
-9.Similar steps done in momentum portfolio.
+8. Rank the stocks based on P/B on each month and rebalance the portfolio based on equal weight.
+9. Similar steps done in momentum portfolio.
 
 ##Regression Momentum Portfolio
-10.Rank the assets in Large Cap basis return in last 12 months(returns are monthly).
-11.Test for linear regression between rank ad return for last 12 month.
-12.Invest only in stocks where slope is significant.
+10. Rank the assets in Large Cap basis return in last 12 months(returns are monthly).
+11. Test for linear regression between rank ad return for last 12 month.
+12. Invest only in stocks where slope is significant.
 
 
 
