@@ -16,6 +16,7 @@ Portfolio Creation using momentum factor and P/B Factor. This also tests differe
 5. Test the hypothesis across the size of portfolio basis per month returns and take the portfolio having maximum per month returns.
 6. Similar steps for Mid Cap
 7. Test the return for Mid Cap and Large Cap and invest accordingly.
+
 ##P/B Portfolio
 8. Rank the stocks based on P/B on each month and rebalance the portfolio based on equal weight.
 9. Similar steps done in momentum portfolio.
