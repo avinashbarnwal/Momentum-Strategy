@@ -148,16 +148,16 @@ text(sd, cagr, labels=size_no, cex= 0.7,pos=3)
 
 
 
-size_1<- cbind(rep(5,length(return_reg5)),  return_5)
-size_2<- cbind(rep(10,length(return_10)),return_10)
-size_3<- cbind(rep(16,length(return_16)),return_16)
-size_4<- cbind(rep(20,length(return_20)),return_20)
-size_5<- cbind(rep(25,length(return_25)),return_25)
-size_6<- cbind(rep(30,length(return_30)),return_30)
-size_7<- cbind(rep(35,length(return_35)),return_35)
-size_8<- cbind(rep(40,length(return_40)),return_40)
-size_9<- cbind(rep(45,length(return_45)),return_45)
-size_testing<-rbind(size_1,size_2,size_3,size_4,size_5,size_6,size_7,size_8,size_9)
+size_1<- cbind(rep(5,length(return_reg5)),  return_reg5)
+size_2<- cbind(rep(10,length(return_reg10)),return_reg10)
+size_3<- cbind(rep(16,length(return_reg16)),return_reg16)
+size_4<- cbind(rep(20,length(return_reg20)),return_reg20)
+size_5<- cbind(rep(25,length(return_reg25)),return_reg25)
+size_6<- cbind(rep(30,length(return_reg30)),return_reg30)
+#size_7<- cbind(rep(35,length(return_reg35)),return_reg35)
+#size_8<- cbind(rep(40,length(return_reg40)),return_reg40)
+#size_9<- cbind(rep(45,length(return_reg45)),return_reg45)
+size_testing<-rbind(size_1,size_2,size_3,size_4,size_5,size_6)
 
 colnames(size_testing)<-c("size_no","return")
 
@@ -220,3 +220,33 @@ ggplot(data=temp_data, aes(x=Date)) +
   geom_line(aes(y = Reg30,colour="Size =30"))+ylab("Portfolio Value")+labs(title = "With Regression Portfolio")+theme(plot.title = element_text(hjust = 0.5))+
   scale_colour_discrete(name  ="Size",
                               labels=c("Size = 5", "Size = 10","Size = 16","Size = 20","Size = 25","Size = 30"))
+
+
+
+
+
+
+
+date2<-index(monthly_adjusted[26:nrow(monthly_adjusted),1])
+Date<-date2
+Ret_Reg5<-as.numeric(return_reg5)
+Ret_Reg10<-as.numeric(return_reg10)
+Ret_Reg16<-as.numeric(return_reg16)
+Ret_Reg20<-as.numeric(return_reg20)
+Ret_Reg25<-as.numeric(return_reg25)
+Ret_Reg30<-as.numeric(return_reg30)
+temp_data<-data.frame(Date,Ret_Reg5,Ret_Reg10,Ret_Reg16,Ret_Reg20,Ret_Reg25,Ret_Reg30)
+
+
+ggplot(data=temp_data, aes(x=Date)) +
+  geom_line(aes(y = Ret_Reg5, colour="Size = 5"))+
+  geom_line(aes(y = Ret_Reg10,colour="Size =10"))+
+  geom_line(aes(y = Ret_Reg16,colour="Size =16"))+
+  geom_line(aes(y = Ret_Reg20,colour="Size =20"))+
+  geom_line(aes(y = Ret_Reg25,colour="Size =25"))+
+  geom_line(aes(y = Ret_Reg30,colour="Size =30"))+ylab("Return")+labs(title = "With Regression Portfolio")+theme(plot.title = element_text(hjust = 0.5))+
+  scale_colour_discrete(name  ="Size",
+                        labels=c("Size = 5", "Size = 10","Size = 16","Size = 20","Size = 25","Size = 30"))
+
+test_statistics <- z.two_samplez.test(return_reg25,return_35,0.01,0.01,var(return_reg25),var(return_35))
+var.test(return_reg25,return_35,alternative="greater")
