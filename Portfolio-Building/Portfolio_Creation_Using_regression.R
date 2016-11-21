@@ -2,14 +2,14 @@
 library(PerformanceAnalytics)
 library(ggplot2)
 #Parameters
-Portfolio<-function(data_old,value,cash,data,monthly_adjusted,i)
+Portfolio<-function(data_old,value,cash,data,monthly_adjusted,i,Stock_flag)
 {
-  
-  Invested_value_old <-sum(as.numeric(value)*as.numeric(monthly_adjusted[i,data_old]))
+  results <- list()
   #print(Invested_value_old)
   #print(cash)
-  Portfolio_value<-Invested_value_old+cash
+  #Portfolio_value<-Invested_value_old+cash
   lm.sel<-vector()
+  p_value<-vector()
   #print(data)
   #regression input and output data selection
   k<-0
@@ -21,28 +21,72 @@ Portfolio<-function(data_old,value,cash,data,monthly_adjusted,i)
     flag_return_data <- as.numeric(return_data[(i-12):(i-23),number])
     lm.res<-summary(lm(flag_return_data~flag_rank_data))
     #print(lm.res)
-    p_value<-coef(lm.res)[2,4]
-    if(p_value<0.05){
+    clean_data<-length(coef(lm.res)[,4])
+    if (clean_data ==1){p_value[j]<-1}
+    else if (coef(lm.res)[2,1] >0)
+    {
+      p_value[j]<-1
+    }
+    else {
+      p_value[j]<-coef(lm.res)[2,4] 
+      print(p_value)}
+    if(p_value[j]<0.05){
       k<-k+1
       lm.sel[k]<-number
-     #print(data[,j])
+     # print(p_value)
+     # print(lm.sel[k])
     }
   }
  #print(data)
- #print(lm.sel)
+ print(lm.sel)
  #colnames(monthly_adjusted[i,lm.sel])
   no <- length(lm.sel)
-  new_composition <- as.numeric(floor(Portfolio_value/(no*monthly_adjusted[i,lm.sel])))
+  if(no==0)
+  {
+    Stock_flag[i-24]<<-0
+    #assign("Portfolio_Value",'[<-'(Portfolio_Value,(i-24), Portfolio_Value[i-25]), envir = .GlobalEnv)
+    #assign("Portfolio_Value[i-24]", Portfolio_Value[i-25], envir = .GlobalEnv)
+    Portfolio_Value[i-24]<<-Portfolio_Value[i-25]
+    stock_compostion <- lm.sel
+    new_composition  <-0
+    Invested_value   <- 0
+    cash<-Portfolio_Value[i-25]
+    results$first  <- new_composition
+    results$second <- cash
+    results$third  <- Invested_value
+    results$fourth <- stock_compostion
+    results$fifth  <- Invested_value+cash
+    return(results) 
+  }
+  else{
+    if(Stock_flag[i-25]==0)
+    {
+      Stock_flag[i-24]<<-1
+      Portfolio_value<-Portfolio_Value[i-25]
+      new_composition <- as.numeric(floor(Portfolio_value/(no*monthly_adjusted[i,lm.sel])))
+    }
+    else{
+      Stock_flag[i-24]<<-1
+      Invested_value_old <-sum(as.numeric(value)*as.numeric(monthly_adjusted[i,data_old]))
+      Portfolio_value<-Invested_value_old+cash
+      new_composition <- as.numeric(floor(Portfolio_value/(no*monthly_adjusted[i,lm.sel])))
+    }
+
   stock_compostion <- lm.sel
   Invested_value <-sum(as.numeric(new_composition)*as.numeric(monthly_adjusted[i,lm.sel]))
   print(Invested_value)
   cash<-Portfolio_value-Invested_value
-  results <- list()
+  #assign("Portfolio_Value[i-24]", Invested_value+cash, envir = .GlobalEnv)
+  #assign("Portfolio_Value",'[<-'(Portfolio_Value,(i-24), Invested_value+cash), envir = .GlobalEnv)
+  Portfolio_Value[i-24]<<-Invested_value+cash
   results$first  <- new_composition
   results$second <- cash
   results$third  <- Invested_value
   results$fourth <- stock_compostion
+  results$fifth  <- Invested_value+cash
   return(results) 
+  
+  }
 }
 
 
@@ -52,6 +96,9 @@ i=25
 data<-rank_data[i-12,1:size]  
 lm.sel  <- vector()
 p_value <- vector()
+Portfolio_Value<<-vector()
+stock_composition <<- list()
+Stock_flag<<-vector()
 #print(data)
 #regression input and output data selection
 k<-0
@@ -62,60 +109,111 @@ for (j in 1:length(data))
   #print(flag_rank_data)
   flag_return_data <- as.numeric(return_data[(i-12):(i-23),number])
   lm.res<-summary(lm(flag_return_data~flag_rank_data))
+  plot(flag_rank_data,flag_return_data)
   #print(lm.res)
-  p_value[j]<-coef(lm.res)[2,4]
+  clean_data=length(coef(lm.res)[,4])
+  if (clean_data ==1){p_value[j]<-1}
+  else if (coef(lm.res)[2,1] >0)
+  {
+    p_value[j]<-1
+  }
+  else {
+    p_value[j]<-coef(lm.res)[2,4] 
+    print(p_value)}
   if(p_value[j]<0.05){
     k<-k+1
     lm.sel[k]<-number
   #print(data[,j])
   }
 }
-
-
-
+if(no>=1)
+{
+  Stock_flag[i-24] <<-1
+}
 no<-length(lm.sel)
 value <- as.numeric(floor(capital/(no*monthly_adjusted[i,lm.sel])))
 Invested_value<-sum(value*monthly_adjusted[i,lm.sel])
 cash <- capital - Invested_value
-stock_composition <- list(lm.sel)
+stock_composition[[1]] <<- lm.sel
+print(stock_composition)
 cash_data<- vector()
 Portfolio_Value<-vector()
 Portfolio_size<-vector()
 value_data<-list(value)
 cash_data[1]<-cash
 Portfolio_size[1]<-no
-Portfolio_Value[1]<-capital
+Portfolio_Value[1]<<-capital
+print(get)
+#assign("Portfolio_Value",'[<-'(Portfolio_Value,1, capital), envir = .GlobalEnv)
 nrow(monthly_adjusted)
 print(value)
 print(cash)
-
+#nrow(monthly_adjusted)
+print("Portfolio_Value")
+print(Portfolio_Value)
+nrow(monthly_adjusted)
 for(i in 26:nrow(monthly_adjusted))
 {
   print(i)
+  print(i-24)
   data_old <-    stock_composition[[i-25]]
   data     <-    rank_data[i-12,1:size]
   value    <-    value_data[[i-25]]
   cash     <-    cash_data[i-25]
-  #if()
-  result<-Portfolio(data_old,value,cash,data,monthly_adjusted,i)
-  #print(result)
+  result<-Portfolio(data_old,value,cash,data,monthly_adjusted,i,Stock_flag)
+  print(result)
   value_data[[i-24]]<-result$first
   cash_data[i-24]<-result$second
-  Portfolio_Value[i-24]<-result$second+result$third
-  stock_composition[[i-24]]<-result$fourth
+  #assign("Portfolio_Value[i-24]", result$fifth, envir = .GlobalEnv)
+  #assign("Portfolio_Value",'[<-'(Portfolio_Value,i-24, result$fifth), envir = .GlobalEnv)
+  Portfolio_Value[i-24]<<-result$fifth
+  stock_composition[[i-24]]<<-result$fourth
+  print("Portfolio_Value")
+  print(Portfolio_Value[1])
+}
+
+#temp<-length(Portfolio_Value)
+#date<-index(monthly_adjusted[25:27,1])
+#print("Portfolio_Value")
+#print(Portfolio_Value)
+#print(date)
+#print(temp)
+
+#Portfolio_Value<-xts(Portfolio_Value,date)
+#print(Portfolio_Value)
+#return <- diff(log(Portfolio_Value))
+#print(return)
+#return<-return[!is.na(return)]
+#print(return)
+#cagr<-Return.annualized(return)
+#sd_an<-sqrt(12)*sd(!is.na(return))
+#sharpe_ratio<-cagr/sd_an
+#print(cagr)
+#print(sd_an)
+#print(sharpe_ratio)
+#plot(return,type="l")
+#plot(Portfolio_Value,type="l")
+#assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
+#assign(paste("return_reg",size, sep=""),return,envir=.GlobalEnv)
+#cagr<-Return.annualized(return)
+#assign(paste("cagr_reg",size, sep=""),cagr,envir=.GlobalEnv)
+#sd_an<-sqrt(12)*sd(return)
+#assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
+#sharpe_ratio<-cagr/sd_an
+#assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
+
 }
 
 date<-index(monthly_adjusted[25:nrow(monthly_adjusted),1])
+
+size<-25
+
 Portfolio_Value<-xts(Portfolio_Value,date)
 return <- diff(log(Portfolio_Value))
 return<-return[!is.na(return)]
-print(return)
 cagr<-Return.annualized(return)
 sd_an<-sqrt(12)*sd(!is.na(return))
 sharpe_ratio<-cagr/sd_an
-print(cagr)
-print(sd_an)
-print(sharpe_ratio)
 plot(return,type="l")
 plot(Portfolio_Value,type="l")
 assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
@@ -127,15 +225,144 @@ assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
 sharpe_ratio<-cagr/sd_an
 assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
 
-}
-length(date)
-length(return)
+
+
 Portfolio_style_regression(5,1000000)
+size<-5
+
+Portfolio_Value<-xts(Portfolio_Value,date)
+return <- diff(log(Portfolio_Value))
+return<-return[!is.na(return)]
+cagr<-Return.annualized(return)
+sd_an<-sqrt(12)*sd(!is.na(return))
+sharpe_ratio<-cagr/sd_an
+plot(return,type="l")
+plot(Portfolio_Value,type="l")
+assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
+assign(paste("return_reg",size, sep=""),return,envir=.GlobalEnv)
+cagr<-Return.annualized(return)
+assign(paste("cagr_reg",size, sep=""),cagr,envir=.GlobalEnv)
+sd_an<-sqrt(12)*sd(return)
+assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
+sharpe_ratio<-cagr/sd_an
+assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
+
+
 Portfolio_style_regression(10,1000000)
+size<-10
+Portfolio_Value<-xts(Portfolio_Value,date)
+return <- diff(log(Portfolio_Value))
+return<-return[!is.na(return)]
+cagr<-Return.annualized(return)
+sd_an<-sqrt(12)*sd(!is.na(return))
+sharpe_ratio<-cagr/sd_an
+plot(return,type="l")
+plot(Portfolio_Value,type="l")
+assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
+assign(paste("return_reg",size, sep=""),return,envir=.GlobalEnv)
+cagr<-Return.annualized(return)
+assign(paste("cagr_reg",size, sep=""),cagr,envir=.GlobalEnv)
+sd_an<-sqrt(12)*sd(return)
+assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
+sharpe_ratio<-cagr/sd_an
+assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
+
+
 Portfolio_style_regression(16,1000000)
+size<-16
+Portfolio_Value<-xts(Portfolio_Value,date)
+return <- diff(log(Portfolio_Value))
+return<-return[!is.na(return)]
+cagr<-Return.annualized(return)
+sd_an<-sqrt(12)*sd(!is.na(return))
+sharpe_ratio<-cagr/sd_an
+plot(return,type="l")
+plot(Portfolio_Value,type="l")
+assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
+assign(paste("return_reg",size, sep=""),return,envir=.GlobalEnv)
+cagr<-Return.annualized(return)
+assign(paste("cagr_reg",size, sep=""),cagr,envir=.GlobalEnv)
+sd_an<-sqrt(12)*sd(return)
+assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
+sharpe_ratio<-cagr/sd_an
+assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
+
 Portfolio_style_regression(20,1000000)
+size<-20
+Portfolio_Value<-xts(Portfolio_Value,date)
+return <- diff(log(Portfolio_Value))
+return<-return[!is.na(return)]
+cagr<-Return.annualized(return)
+sd_an<-sqrt(12)*sd(!is.na(return))
+sharpe_ratio<-cagr/sd_an
+plot(return,type="l")
+plot(Portfolio_Value,type="l")
+assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
+assign(paste("return_reg",size, sep=""),return,envir=.GlobalEnv)
+cagr<-Return.annualized(return)
+assign(paste("cagr_reg",size, sep=""),cagr,envir=.GlobalEnv)
+sd_an<-sqrt(12)*sd(return)
+assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
+sharpe_ratio<-cagr/sd_an
+assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
+
 Portfolio_style_regression(25,1000000)
+size<-25
+Portfolio_Value<-xts(Portfolio_Value,date)
+return <- diff(log(Portfolio_Value))
+return<-return[!is.na(return)]
+cagr<-Return.annualized(return)
+sd_an<-sqrt(12)*sd(!is.na(return))
+sharpe_ratio<-cagr/sd_an
+plot(return,type="l")
+plot(Portfolio_Value,type="l")
+assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
+assign(paste("return_reg",size, sep=""),return,envir=.GlobalEnv)
+cagr<-Return.annualized(return)
+assign(paste("cagr_reg",size, sep=""),cagr,envir=.GlobalEnv)
+sd_an<-sqrt(12)*sd(return)
+assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
+sharpe_ratio<-cagr/sd_an
+assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
+
+
 Portfolio_style_regression(30,1000000)
+size<-30
+Portfolio_Value<-xts(Portfolio_Value,date)
+return <- diff(log(Portfolio_Value))
+return<-return[!is.na(return)]
+cagr<-Return.annualized(return)
+sd_an<-sqrt(12)*sd(!is.na(return))
+sharpe_ratio<-cagr/sd_an
+plot(return,type="l")
+plot(Portfolio_Value,type="l")
+assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
+assign(paste("return_reg",size, sep=""),return,envir=.GlobalEnv)
+cagr<-Return.annualized(return)
+assign(paste("cagr_reg",size, sep=""),cagr,envir=.GlobalEnv)
+sd_an<-sqrt(12)*sd(return)
+assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
+sharpe_ratio<-cagr/sd_an
+assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
+
+Portfolio_style_regression(40,1000000)
+size<-40
+Portfolio_Value<-xts(Portfolio_Value,date)
+return <- diff(log(Portfolio_Value))
+return<-return[!is.na(return)]
+cagr<-Return.annualized(return)
+sd_an<-sqrt(12)*sd(!is.na(return))
+sharpe_ratio<-cagr/sd_an
+plot(return,type="l")
+plot(Portfolio_Value,type="l")
+assign(paste("Portfolio_Value_reg",size, sep=""),Portfolio_Value,envir=.GlobalEnv)
+assign(paste("return_reg",size, sep=""),return,envir=.GlobalEnv)
+cagr<-Return.annualized(return)
+assign(paste("cagr_reg",size, sep=""),cagr,envir=.GlobalEnv)
+sd_an<-sqrt(12)*sd(return)
+assign(paste("sd_an_reg",size, sep=""),sd_an,envir=.GlobalEnv)
+sharpe_ratio<-cagr/sd_an
+assign(paste("sharpe_ratio_reg",size, sep=""),sharpe_ratio,envir=.GlobalEnv)
 
 
 
@@ -160,11 +387,11 @@ size_6<- cbind(rep(30,length(return_reg30)),return_reg30)
 size_testing<-rbind(size_1,size_2,size_3,size_4,size_5,size_6)
 
 colnames(size_testing)<-c("size_no","return")
-
-return_data<-as.numeric(size_testing$return)
+size_testing<-data.frame(size_testing)
+return_data_flag<-as.numeric(size_testing$return)
 size_data<-as.character(size_testing$size_no)
 
-fit <- aov(return_data~size_data)
+fit <- aov(return_data_flag~size_data)
 summary(fit)
 
 
