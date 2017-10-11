@@ -4,7 +4,7 @@ Investment strategy is inspired by book Quantitative momentum [Quantitative Mome
 
 ##Objective
 
-Portfolio Creation using momentum factor and P/B Factor. This also tests different size of stocks in portfolio to maximize portfolio returns. There is additional variant of momemtum factor. We call it *significant regression momentum portfolio*. Similar strategy is used for P/B factor.
+Portfolio Creation using momentum factor and P/B Factor. This also tests different size of stocks in portfolio to maximize portfolio returns. There is additional variant of momemtum factor. We call it **significant regression momentum portfolio**. Similar strategy is used for P/B factor.
 
 ##Structural Steps
 
